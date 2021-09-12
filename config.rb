@@ -8,7 +8,7 @@ Dir['./*/*.rb'].each { |file| load file }
 config[:sass_assets_paths] << File.join(root, 'node_modules')
 
 set :css_dir,    'assets/stylesheets'
-set :fonts_dir,  'assets/app'
+set :fonts_dir,  'assets/fonts'
 set :images_dir, 'assets/images'
 set :js_dir,     'assets/javascripts'
 
