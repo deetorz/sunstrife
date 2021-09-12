@@ -16,9 +16,14 @@ body {
   color: $ss-light;
 }
 a {
+  color: $ss-light;
   font-size: 1.2rem;
   &:hover {
     text-decoration: none;
     color: $ss-yellow;
   }
+}
+
+p {
+  font-size: 1.2rem;
 }
