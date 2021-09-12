@@ -17,6 +17,7 @@
   display: none;
   font-size: 1.1rem;
   font-weight: bolder;
+  margin-bottom: 18px;
 }
 #dropdown-links {font-size: 1rem;}
 .show {display:block;}
@@ -27,10 +28,12 @@
 .active-link {
   margin: 0 60px;
   color: $ss-yellow;
+  width: 70px;
 }
 .inactive-link {
   margin: 0 60px;
   color: $ss-light;
+  width: 70px;
 }
 @media (max-width: 952px) {
   .active-link{
