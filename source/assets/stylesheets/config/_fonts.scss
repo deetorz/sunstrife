@@ -6,24 +6,26 @@ $body-font: 'BenguiatITCbyBT-Book';
 $headers-font: 'BenguiatITCbyBT-Book';
 
 // To use a font file (.woff) uncomment following lines
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
-
 @font-face {
-  font-family: 'BenguiatITCbyBT-Book';
-  src: url('fonts/onlinefontconverter.com/converted-files/BenguiatITCbyBT-Book.eot');
-  src: url('fonts/onlinefontconverter.com/converted-files/BenguiatITCbyBT-Book.eot?#iefix') format('embedded-opentype'),
-       url('fonts/onlinefontconverter.com/converted-files/BenguiatITCbyBT-Book.svg#BenguiatITCbyBT-Book') format('svg');
-      //  url('fonts/onlinefontconverter.com/converted-files/BenguiatITCbyBT-Book.ttf') format('truetype'),
-      //  url('fonts/onlinefontconverter.com/converted-files/BenguiatITCbyBT-Book.woff') format('woff'),
-      //  url('fonts/onlinefontconverter.com/converted-files/') format('woff2');
+  font-family: "BenguiatITCbyBT-Book";
+  src: font-url('BenguiatITCbyBT-Book.eot');
+  src: font-url('BenguiatITCbyBT-Book.eot?#iefix') format('embedded-opentype'),
+       font-url('BenguiatITCbyBT-Book.woff') format('woff'),
+       font-url('BenguiatITCbyBT-Book.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+// $my-font: "Font Name";
+
+// @font-face {
+//   font-family: 'BenguiatITCbyBT-Book';
+//   src: url('fonts/onlinefontconverter.com/converted-files/BenguiatITCbyBT-Book.eot');
+//   src: url('fonts/onlinefontconverter.com/converted-files/BenguiatITCbyBT-Book.eot?#iefix') format('embedded-opentype'),
+//        url('fonts/onlinefontconverter.com/converted-files/BenguiatITCbyBT-Book.svg#BenguiatITCbyBT-Book') format('svg'),
+//        url('fonts/onlinefontconverter.com/converted-files/BenguiatITCbyBT-Book.ttf') format('truetype'),
+//        url('fonts/onlinefontconverter.com/converted-files/BenguiatITCbyBT-Book.woff') format('woff'),
+//        url('fonts/onlinefontconverter.com/converted-files/') format('woff2');
+//   font-weight: normal;
+//   font-style: normal;
+// }
 
