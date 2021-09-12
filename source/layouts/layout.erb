@@ -19,26 +19,4 @@
     <%= yield %>
     <%= javascript_include_tag "bundle" %>
   </body>
-  <footer>
-    <div class="d-flex flex-column align-items-center">
-      <div class="d-flex justify-content-center">
-        <% link_to "https://open.spotify.com/artist/7oO9C1YQHV22qKRXU8bcCy", class: "mx-2", target: :_blank do %>
-          <i class="fab fa-spotify"></i>
-        <% end %>
-        <% link_to "https://music.apple.com/us/artist/sunstrife/1458827873", class: "mx-2", target: :_blank do %>
-          <i class="fab fa-itunes-note"></i>
-        <% end %>
-        <% link_to "https://www.youtube.com/channel/UC0BWpVM1p8AgSBHB79OmXsA", class: "mx-2", target: :_blank do %>
-          <i class="fab fa-youtube"></i>
-        <% end %>
-        <% link_to "https://www.facebook.com/SunstrifeFL/", class: "mx-2", target: :_blank do %>
-          <i class="fab fa-facebook-square"></i>
-        <% end %>
-        <% link_to "https://www.instagram.com/sunstrife_fl/?hl=en", class: "mx-2", target: :_blank do %>
-          <i class="fab fa-instagram"></i>
-        <% end %>
-      </div>
-      <p class="mt-2">Made with 💗 by <span><%= link_to "Derek Torres", "www.derektorres.com" %></span></p>
-    </div>
-  </footer>
 </html>
