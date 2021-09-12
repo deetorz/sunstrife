@@ -14,3 +14,15 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+@font-face {
+  font-family: 'BenguiatITCbyBT-Book';
+  src: url('fonts/onlinefontconverter.com/converted-files/BenguiatITCbyBT-Book.eot');
+  src: url('fonts/onlinefontconverter.com/converted-files/BenguiatITCbyBT-Book.eot?#iefix') format('embedded-opentype'),
+       url('fonts/onlinefontconverter.com/converted-files/BenguiatITCbyBT-Book.svg#BenguiatITCbyBT-Book') format('svg'),
+       url('fonts/onlinefontconverter.com/converted-files/BenguiatITCbyBT-Book.ttf') format('truetype'),
+       url('fonts/onlinefontconverter.com/converted-files/BenguiatITCbyBT-Book.woff') format('woff'),
+       url('fonts/onlinefontconverter.com/converted-files/') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
