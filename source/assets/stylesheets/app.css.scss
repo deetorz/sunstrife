@@ -14,6 +14,15 @@
 
 body {
   color: $ss-light;
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  &::-webkit-scrollbar-track {
+    background: $ss-light;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $ss-yellow;
+  }
 }
 a {
   color: $ss-light;
@@ -28,4 +37,11 @@ p {
 }
 .footer-links {
   font-size: 1.6rem;
+}
+
+footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   background:#6cf;
 }
